@@ -1,0 +1,747 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../Assets/Pics/VILL.JPG);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.footer-container{
+  top: 783px;
+}
+
+
+@-webkit-keyframes harlem {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+  20% {
+    transform: scale(1.03, 1);
+    -webkit-transform: scale(1.03, 1);
+    -moz-transform: scale(1.03, 1);
+    -o-transform: scale(1.03, 1);
+    -ms-transform: scale(1.03, 1);
+  }
+  40% {
+    transform: scale(0.97, 1);
+    -webkit-transform: scale(0.97, 1);
+    -moz-transform: scale(0.97, 1);
+    -o-transform: scale(0.97, 1);
+    -ms-transform: scale(0.97, 1);
+  }
+  60% {
+    transform: scale(1.01, 1);
+    -webkit-transform: scale(1.01, 1);
+    -moz-transform: scale(1.01, 1);
+    -o-transform: scale(1.01, 1);
+    -ms-transform: scale(1.01, 1);
+  }
+  80% {
+    transform: scale(0.99, 1);
+    -webkit-transform: scale(0.99, 1);
+    -moz-transform: scale(0.99, 1);
+    -o-transform: scale(0.99, 1);
+    -ms-transform: scale(0.99, 1);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+
+
+@keyframes harlem {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+  20% {
+    transform: scale(1.03, 1);
+    -webkit-transform: scale(1.03, 1);
+    -moz-transform: scale(1.03, 1);
+    -o-transform: scale(1.03, 1);
+    -ms-transform: scale(1.03, 1);
+  }
+  40% {
+    transform: scale(0.97, 1);
+    -webkit-transform: scale(0.97, 1);
+    -moz-transform: scale(0.97, 1);
+    -o-transform: scale(0.97, 1);
+    -ms-transform: scale(0.97, 1);
+  }
+  60% {
+    transform: scale(1.01, 1);
+    -webkit-transform: scale(1.01, 1);
+    -moz-transform: scale(1.01, 1);
+    -o-transform: scale(1.01, 1);
+    -ms-transform: scale(1.01, 1);
+  }
+  80% {
+    transform: scale(0.99, 1);
+    -webkit-transform: scale(0.99, 1);
+    -moz-transform: scale(0.99, 1);
+    -o-transform: scale(0.99, 1);
+    -ms-transform: scale(0.99, 1);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 2.5px;
+  font-family: 'Mukta';
+  font-weight: 700;
+  color: #fff;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  font-family: 'Mukta';
+  font-weight: 400;
+  color: #999;
+}
+
+h4 {
+  margin: 0 0 10px 0px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-family: 'Mukta';
+  font-weight: 700;
+  color: #fff;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 13px;
+  font-family: 'Mukta';
+  font-weight: 700;
+  color: #6d6d6d;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: 'Mukta';
+  font-weight: 700;
+  color: #f0f0f0;
+}
+
+h7 {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: 'Mukta';
+  font-weight: 700;
+  color:#f8f9fa;
+}
+
+h8 {
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-size: 11px;
+  line-height: 11px;
+  width: 215px;
+  font-family: 'Mukta';
+  font-weight: 600;
+  color: #b1aeae;
+
+}
+
+.screen {
+  background-color: #111111;
+  padding: 0;
+  height: 650px;
+  width: 366px;
+  position: absolute;
+  left: 50%;
+	top: 70px;
+	-webkit-transform: translate(-50%, 0);
+	        transform: translate(-50%, 0);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 30px 0;
+  border-radius: 25px;
+}
+
+.header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  margin: 0 0 40px 0;
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+label.main:before {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  font-family: FontAwesome;
+  content: '\f0c9';
+  color: #eee;
+  font-size: 19px;
+  line-height: 16px;
+  cursor: pointer;
+  z-index: 10;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+label.main:hover:before {
+  color: #eee;
+}
+
+.cover-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  width: 366px;
+  height: 366px;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.cover {
+  background-size: cover;
+  width: 366px;
+  height: 366px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.list {
+  border-spacing: 0px 2px;
+  width: 342px;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  visibility: hidden;
+  opacity: 0;
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; */
+  position: absolute;
+  top: 378px;
+  left: 12px;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: scale(0.1, 0.1);
+          transform: scale(0.1, 0.1);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.list tr {
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+  height: 50px;
+  text-align: center;
+  background: #1d1d1d;
+  /* text-indent: 2px; */
+}
+
+.nr{
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.title {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width: 190px;
+  text-align: left;
+  text-indent: 20px;
+  -webkit-transition: all 0.11s ease-in;
+  transition: all 0.11s ease-in;
+}
+
+.list tr:hover .title {
+  padding-left: 30px;
+  width: 190px;
+  -webkit-transition: all 0.11s ease-in;
+  transition: all 0.11s ease-in;
+}
+
+label.zmr:before {
+  font-family: FontAwesome;
+  content: "\f08a";
+  color: #777;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+  z-index: 10;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+td {
+  line-height: 12px;
+}
+
+.bodyPlayer {
+  position: absolute;
+  top: 366px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 286px;
+  width: 366px;
+  background: #111;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.info {
+  width: 200px;
+  position: absolute;
+  top: 395px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.controls {
+  background: none;
+  text-align: center;
+  font-family: FontAwesome;
+  color: #fff;
+  font-size: 26px;
+  line-height: 26px;
+  width: 275px;
+  height: 35px;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 10;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border-spacing: 0;
+}
+
+.controller {
+  width: 26px;
+  height: 26px;
+  margin: 0 20px 0 20px;
+}
+
+.sound-container {
+  background-size: 100%;
+  width: 320px;
+  height: 26px;
+  position: absolute;
+  top: 555px;
+  left: 23px;
+  background: none;
+  text-align: center;
+  font-family: FontAwesome;
+  color: #fff;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.mute-container {
+  width: 26px;
+  margin-left: 80px;
+}
+
+.footer {
+  background: none;
+  text-align: center;
+  font-family: FontAwesome;
+  color: #f8f9fa;
+  font-size: 20px;
+  line-height: 20px;
+  width: 275px;
+  height: 20px;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border-spacing: 0;
+}
+
+.current {
+  position: absolute;
+  font-style: italic;
+  color: #f8f9fa;
+  right: 23px;
+  bottom: -60px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.shadow {
+  background: rgba(17, 17, 17, 0.8);
+  width: 366px;
+  height: 50px;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  box-shadow: 0px -15px 40px rgba(17, 17, 17, 0.9);
+}
+
+
+#play,
+#next,
+#prev,
+#love,
+.heart,
+#shuffle,
+#repeat,
+#mute {
+  background-color: transparent;
+  border: none;
+  color: #f8f9fa;
+  text-decoration:none;
+  padding-right: 10px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+#play,
+#next,
+#prev {
+  width: 26px;
+  height: 26px;
+  font-size: 26px;
+}
+
+#mute {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+}
+
+#love,
+#shuffle,
+#repeat {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  margin: 0 75px 0 0;
+}
+
+#repeat {
+  margin-right: 0;
+}
+
+.heart {
+  margin: 10px 6px 0 20px;
+}
+
+audio {
+  visibility: hidden;
+}
+
+
+
+/* -------------------------------------- */
+/* --------------- HOVER ---------------- */
+/* -------------------------------------- */
+
+
+.list tr:hover {
+  background: #222;
+  cursor: pointer;
+}
+
+h5:hover {
+  color: #bbb;
+  cursor: pointer;
+}
+
+
+#mute:hover {
+  color: #bbb;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.fas:hover {
+  color: #bbb;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.love:hover {
+  color: #bbb;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.shuffle:hover {
+  color: #bbb;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.repeat:hover {
+  color: #bbb;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+
+
+/* -------------------------------------- */
+/* ------ MagicButton - Music List ------ */
+/* -------------------------------------- */
+
+
+.screen > #magicButton:checked ~ label.main:before {
+  color: #209248;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.screen > #magicButton:checked ~ .controls {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .current {
+  bottom: 17px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .info {
+  width: 160px;
+  top: 50px;
+  left: 274px;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .info h4 {
+  margin-left: 0;
+  height: auto;
+  font-size: 16px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .cover-container {
+  -webkit-transform: scale(0.500, 0.500);
+          transform: scale(0.500, 0.500);
+  left: 0px;
+  top: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.screen > #magicButton:checked ~ .bodyPlayer {
+  height: 470px;
+  left: 0;
+  top: 180px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .progress-bar {
+  top: 110px;
+  left: 212px;
+  -webkit-transform: scale(0.7, 0.9);
+          transform: scale(0.7, 0.9);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .audio-current-time {
+  top: 128px;
+  left: 212px;
+  -webkit-transform: scale(0.8, 0.8);
+          transform: scale(0.8, 0.8);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .list {
+  top: 192px;
+  left: 12px;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 1;
+
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
+  visibility: visible;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .audio-duration {
+  top: 128px;
+  left: 302px;
+  -webkit-transform: scale(0.8, 0.8);
+          transform: scale(0.8, 0.8);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .footer {
+  bottom: -60px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+
+.screen > #magicButton:checked ~ table tr:nth-child(1) {
+  opacity: 1;
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
+  -webkit-animation: harlem 0.3s linear forwards;
+          animation: harlem 0.3s linear forwards;
+  -webkit-animation-delay: 0.185s;
+          animation-delay: 0.185s;
+}
+
+.screen > #magicButton:checked ~ table tr:nth-child(2) {
+  -webkit-animation: harlem 0.3s linear forwards;
+          animation: harlem 0.3s linear forwards;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.screen > #magicButton:checked ~ table tr:nth-child(3) {
+  -webkit-animation: harlem 0.3s linear forwards;
+          animation: harlem 0.3s linear forwards;
+  -webkit-animation-delay: 0.215s;
+          animation-delay: 0.215s;
+}
+
+.screen > #magicButton:checked ~ table tr:nth-child(4) {
+  -webkit-animation: harlem 0.3s linear forwards;
+          animation: harlem 0.3s linear forwards;
+  -webkit-animation-delay: 0.23s;
+          animation-delay: 0.23s;
+}
+
+.screen > #magicButton:checked ~ table tr:nth-child(5) {
+  -webkit-animation: harlem 0.3s linear forwards;
+          animation: harlem 0.3s linear forwards;
+  -webkit-animation-delay: 0.245s;
+          animation-delay: 0.245s;
+}
+
+.screen > #magicButton:checked ~ table tr:nth-child(6) {
+  -webkit-animation: harlem 0.3s linear forwards;
+          animation: harlem 0.3s linear forwards;
+  -webkit-animation-delay: 0.26s;
+          animation-delay: 0.26s;
+}
+
+
+
+
+@media screen and (max-height: 800px) {
+  .screen {
+	  top: 70px;
+    height: 610px;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  .cover {
+    height: 356px;
+  }
+
+  .bodyPlayer {
+    top: 356px;
+  }
+
+  .progress-bar {
+    top: 430px;
+  }
+
+  .audio-current-time {
+    top: 430px;
+  }
+
+  .audio-duration {
+    top: 430px;
+  }
+
+  .info {
+    top: 375px;
+  }
+
+  .controls {
+    top: 475px;
+  }
+
+  .sound-container {
+    top: 523px;
+  }
+
+  .footer-container{
+    top: 743px;
+  }
+}

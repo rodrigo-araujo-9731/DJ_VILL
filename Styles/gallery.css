@@ -1,0 +1,125 @@
+body {
+	min-height: 100vh;
+	font-size: 10px;
+}
+
+main {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100%;
+}
+.container {
+	max-width: 2400px;
+	max-width: 2400px;
+	max-width: 150rem;
+	margin: 0 auto;
+	padding: 0 32px 32px;
+	padding: 0 32px 32px;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: "Mukta", Arial, sans-serif;
+	font-size: 48px;
+	font-size: 48px;
+	font-size: 3rem;
+	font-weight: 500;
+	line-height: 1;
+	text-align: left;
+	padding: 56px 0;
+	padding: 56px 0;
+	padding: 3.5rem 0;
+	color: #f8f9fa;
+}
+
+
+.gallery-container {
+	display: block;
+	margin-bottom: 200px;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        -webkit-justify-content: center;
+	        justify-content: center;
+}
+
+.gallery {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin: -16px -16px;
+	margin: -16px -16px;
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 384px;
+	        -webkit-flex: 1 0 384px;
+	        flex: 1 0 384px;
+	-ms-flex: 1 0 384px;
+	-ms-flex: 1 0 24rem;
+	    flex: 1 0 384px;
+	    -webkit-flex: 1 0 24rem;
+	            flex: 1 0 24rem;
+	margin: 16px;
+	margin: 16px;
+	margin: 1rem;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-webkit-transition: -webkit-transform 400ms ease-out;
+	transition: -webkit-transform 400ms ease-out;
+	transition: transform 400ms ease-out;
+	transition: transform 400ms ease-out, -webkit-transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	-webkit-transform: scale(1.15);
+	        transform: scale(1.15);
+}
+
+/* ==========================================================================
+   #GRID
+   ========================================================================== */
+
+
+@supports ((display: -ms-grid) or (display: grid)) {
+	.gallery {
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: (minmax(20rem, 3fr))[auto-fit];
+		    grid-template-columns: repeat(auto-fit, minmax(20rem, 3fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+
+/* ==========================================================================
+   #FOOTER
+   ========================================================================== */
+
+  
+  .footer-container {
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0;
+  }

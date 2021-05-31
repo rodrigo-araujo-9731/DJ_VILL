@@ -1,0 +1,97 @@
+.audio-current-time {
+  color: #f8f9fa;
+  font-size: 14;
+  height: 15px;
+  width: 40px;
+  position: absolute;
+  top: 450px;
+  left: 15%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.audio-duration {
+  color: #f8f9fa;
+  height: 15px;
+  width: 40px;
+  position: absolute;
+  top: 450px;
+  right: 4%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  -webkit-transform-origin: 100% 0%;
+          transform-origin: 100% 0%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+
+.progress-bar {
+  background: #f8f9fa;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 180px;
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  box-shadow: 1px 1px 1px #000000, 1px 1px 1px #0d0d0d;
+
+  -webkit-transform-origin: 0% 0%;
+
+          transform-origin: 0% 0%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#progress {
+  background-color: #209248;
+  border-radius: 5px;
+  border-right: 1px solid rgb(17,17,17);
+  height: 100%;
+  width: 0%;
+  -webkit-transition: width 0.1s linear;
+  transition: width 0.1s linear;
+  z-index: 10;
+}
+
+#audioCurrentTime {
+  width: 30px;
+}
+
+.sound-bar {
+  background: #f8f9fa;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 60px 10px 0;
+  height: 4px;
+  width: 120px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+ 
+  -webkit-transform-origin: 0% 0%;
+ 
+          transform-origin: 0% 0%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 10;
+}
+
+#volume-progress {
+  background-color: #209248;
+  border-radius: 5px;
+  border-right: 1px solid rgb(17,17,17);
+  height: 100%;
+  width: 0;
+  -webkit-transition: width 0.1s linear;
+  transition: width 0.1s linear;
+}

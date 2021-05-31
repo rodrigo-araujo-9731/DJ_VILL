@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "song": "Alive.mp3",
+        "title": "Alive",
+        "artist": "Krewella (VILL Remix)",
+        "cover": "Alive.png",
+        "duration": "04:12"
+    },
+    {
+        "id": 2,
+        "song": "A River In The Flora.mp3",
+        "title": "A River In The Flora",
+        "artist": "DJ VILL",
+        "cover": "A River In The Flora.png",
+        "duration": "03:35"
+
+    },
+    {
+        "id": 3,
+        "song": "Waiting Hours.mp3",
+        "title": "Waiting Hours",
+        "artist": "DJ VILL",
+        "cover": "Waiting Hours.png",
+        "duration": "03:10"
+
+    },
+    {
+        "id": 4,
+        "song": "No Falling Again.mp3",
+        "title": "No Falling Again",
+        "artist": "DJ VILL (ft Beatriz Gonçalves)",
+        "cover": "No Falling Again.png",
+        "duration": "03:13"
+
+    }
+]
