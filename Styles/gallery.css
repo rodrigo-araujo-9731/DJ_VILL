@@ -99,7 +99,7 @@ main {
 	.gallery {
 		display: -ms-grid;
 		display: grid;
-		-ms-grid-columns: (minmax(20rem, 3fr))[auto-fit];
+		-ms-grid-columns: (minmax(20rem, 3fr));
 		    grid-template-columns: repeat(auto-fit, minmax(20rem, 3fr));
 		grid-gap: 2rem;
 	}
